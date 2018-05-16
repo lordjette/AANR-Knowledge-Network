@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+	<fields addfieldpath="/administrator/components/com_fabrik/models/fields" name="params">
+		<fieldset name="plg-form-acymailing" label="PLG_FORM_ACYMAILING_GENERAL">
+
+			<field default="1"
+				class="btn-group"
+				description="PLG_FORM_ACYMAILING_USER_CONFIRM_DESC" label="PLG_FORM_ACYMAILING_USER_CONFIRM_LABEL" name="acymailing_userconfirm" repeat="true" type="radio">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>	
+			</field>
+			
+			<field description="PLG_FORM_ACYMAILING_LIST_ID_DESC" label="PLG_FORM_ACYMAILING_LIST_ID_LABEL" name="acymailing_listid" repeat="true" size="30" type="text"/>
+		
+			<field description="PLG_FORM_ACYMAILING_EMAIL_DESC" label="PLG_FORM_ACYMAILING_EMAIL_LABEL" name="acymailing_email" onlytablefields="0" repeat="true" type="listfields" valueformat="tableelement"/>
+			
+			<field description="PLG_FORM_ACYMAILING_NAME_DESC" label="PLG_FORM_ACYMAILING_NAME_LABEL" name="acymailing_name" onlytablefields="0" repeat="true" type="listfields" valueformat="tableelement"/>
+				
+			<field default="" description="PLG_FORM_ACYMAILING_INTRO_TERMS_TEXT_DESC" label="PLG_FORM_ACYMAILING_INTRO_TERMS_TEXT_LABEL" name="acymailing_intro_terms" repeat="true" type="textarea" cols="60" rows="2" />
+			
+			<field default="Je m'inscris à la newsletter" description="PLG_FORM_ACYMAILING_SIGNUP_LABEL_DESC" label="PLG_FORM_ACYMAILING_SIGNUP_LABEL_LABEL" name="acymailing_signuplabel" repeat="true" size="40" type="text"/>
+			
+			<field default="1"
+				class="btn-group"
+				description="PLG_FORM_ACYMAILING_DOUBLE_OPTIN_DESC" label="PLG_FORM_ACYMAILING_DOUBLE_OPTIN_LABEL" name="acymailing_double_optin" repeat="true" type="radio">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+			</field>
+		</fieldset>
+		
+		<fieldset name="plg-form-acymailing-layout" label="PLG_FORM_ACYMAILING_LAYOUT">
+			
+			<field default="1"
+				class="btn-group"
+				description="PLG_FORM_ACYMAILING_FIELDSET_DESC" label="PLG_FORM_ACYMAILING_FIELDSET_LABEL" name="acymailing_fieldset" repeat="true" type="radio">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>	
+			</field>
+			
+			<field default="" description="PLG_FORM_ACYMAILING_FIELDSET_CLASS_DESC" label="PLG_FORM_ACYMAILING_FIELDSET_CLASS_LABEL" name="acymailing_fieldset_class" repeat="true" size="40" type="text"/>
+			
+			<field default="" description="PLG_FORM_ACYMAILING_LEGEND_DESC" label="PLG_FORM_ACYMAILING_LEGEND_LABEL" name="acymailing_legend" repeat="true" size="40" type="text"/>
+			
+			<field default="" description="PLG_FORM_ACYMAILING_LEGEND_CLASS_DESC" label="PLG_FORM_ACYMAILING_LEGEND_CLASS_LABEL" name="acymailing_legend_class" repeat="true" size="40" type="text"/>
+			
+		</fieldset>
+		
+		<fieldset name="plg-form-acymailing-options" label="PLG_FORM_ACYMAILING_OPTIONS">
+			
+			<field default="0"
+				class="btn-group"
+				description="PLG_FORM_ACYMAILING_IP_RECORD_DESC" label="PLG_FORM_ACYMAILING_IP_RECORD_LABEL" name="acymailing_ip_record" repeat="true" type="radio">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>	
+			</field>
+			
+		</fieldset>
+	</fields>
+</form>

@@ -1,0 +1,1 @@
+importScripts('https://cdn.zmpush.com/serviceworker/ZMPushServiceWorker.js');

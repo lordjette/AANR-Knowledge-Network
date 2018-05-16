@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="system" overwrite="true">
+	<name>System - Mobile Detection</name>
+	<author>Michael Düpjohann</author>
+	<authorEmail>kontakt@md-technologie.de</authorEmail>
+	<authorUrl>http://www.md-technologie.de</authorUrl>
+	<creationDate>2015-08-16</creationDate>
+	<copyright>MD-Technologie All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>1.0.0</version>
+	<description>Detects if user has a mobile phone and change to selected mobile template</description>
+	<files>
+		<filename plugin="mobiledetection">mobiledetection.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+            <field name="template_style_id" type="templatestyle" client="user" description="Template style" label="Template">
+               <option value="">JOPTION_USE_DEFAULT</option>
+            </field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
