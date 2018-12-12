@@ -18,7 +18,7 @@ class JConfig {
 	public $db = 'id5773444_cmsc272';
 	public $dbprefix = 'cmsc_';
 	public $live_site = '';
-	public $secret = 'B0D4ac7R1sFPEiRX';
+	public $secret = '123';
 	public $gzip = '0';
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
